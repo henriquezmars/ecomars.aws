@@ -55,12 +55,12 @@ const Navbar = () => {
                 alt="Rentiful Logo"
                 width={24}
                 height={24}
-                className="w-6 h-6"
+                className="w-9 h-9"
               />
-              <div className="text-xl font-bold">
-                RENT
-                <span className="text-secondary-500 font-light hover:!text-primary-300">
-                  IFUL
+              <div className="text-2xl font-bold">
+                eco
+                <span className="text-secondary-500 font-bold hover:!text-primary-300">
+                  mars
                 </span>
               </div>
             </div>
@@ -95,7 +95,7 @@ const Navbar = () => {
         </div>
         {!isDashboardPage && (
           <p className="text-primary-200 hidden md:block">
-            Discover your perfect rental apartment with our advanced search
+            Find your perfect apartment with our 24/7 BrokerConnection © meeting system
           </p>
         )}
         <div className="flex items-center gap-5">

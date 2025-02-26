@@ -15,8 +15,9 @@ const FooterSection = () => {
       <div className="max-w-4xl mx-auto px-6 sm:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4">
-            <Link href="/" className="text-xl font-bold" scroll={false}>
-              RENTIFUL
+            
+            <Link href="/" className="text-3xl font-bold" scroll={false}>
+              ecomars
             </Link>
           </div>
           <nav className="mb-4">
@@ -69,7 +70,7 @@ const FooterSection = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-sm text-gray-500 flex justify-center space-x-4">
-          <span>© RENTiful. All rights reserved.</span>
+          <span>© Ecomars. All rights reserved.</span>
           <Link href="/privacy">Privacy Policy</Link>
           <Link href="/terms">Terms of Service</Link>
           <Link href="/cookies">Cookie Policy</Link>
